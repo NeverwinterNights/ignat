@@ -1,0 +1,26 @@
+.nav_main {
+    display: flex;
+    margin-left: 20px;
+    align-items: center;
+    width: 300px;
+    transform: translate(-220px);
+    transition:  all 0.7s ease 0s;
+}
+.nav_main:hover {
+    transform: translate(0);
+    transition:  all 0.7s ease 0s;
+}
+
+.link {
+    margin-right: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+
+.button {
+    background-color: black;
+    width: 30px;
+    height: 15px;
+    cursor: pointer;
+}
